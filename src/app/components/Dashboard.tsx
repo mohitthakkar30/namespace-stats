@@ -847,20 +847,7 @@ export default function Dashboard() {
                   </div>
                 </div>
                 
-                 <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-4">
-                  <div className="flex justify-between items-center">
-                    <div>
-                      <div className="text-green-900 font-medium">Total Fee</div>
-                      {/* <div className="text-red-600 text-sm">Chain ID: 10</div> */}
-                    </div>
-                    <div className="text-right">
-                      <div className="text-2xl font-bold text-green-700">
-                        {formatNumber(l2Stats.totalFee || 0)}
-                      </div>
-                      <div className="text-green-500 text-sm">ETH</div>
-                    </div>
-                  </div>
-                </div>
+                
 
                 <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl p-4">
                   <div className="flex justify-between items-center">
