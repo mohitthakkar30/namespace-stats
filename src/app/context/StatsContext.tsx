@@ -28,6 +28,7 @@ interface GlobalL2Statistics {
 interface OffchainStats {
   total: number;
   names: Record<string, number>;
+  totalApiKeys: number;
 }
 
 interface ListingStats {

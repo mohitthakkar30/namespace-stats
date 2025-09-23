@@ -429,7 +429,7 @@ export default function Dashboard() {
                   <div className="text-gray-600 text-sm font-medium mb-1">API Keys Generated</div>
                   <div className="text-2xl font-bold text-gray-900 mb-2">
                     {/* Replace with actual API keys count when available */}
-                    {formatNumber(8205)}
+                    {offchainStats.totalApiKeys}
                   </div>
                   <div className="text-gray-500 text-xs">Total API keys issued to developers</div>
                 </div>
