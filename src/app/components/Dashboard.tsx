@@ -284,7 +284,7 @@ export default function Dashboard() {
                   </div>
                   <div className="text-gray-600 text-sm font-medium mb-1">Total Subnames</div>
                   <div className="text-2xl font-bold text-gray-900 mb-2">{formatNumber(totalSubnamesOverall)}</div>
-                  <div className="text-gray-500 text-xs">Total subnames minted on platform</div>
+                  <div className="text-gray-500 text-xs">Total subnames minted on OP, Base and L1</div>
                 </div>
               </div>
             </WidgetCard>
